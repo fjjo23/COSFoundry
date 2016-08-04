@@ -64,6 +64,7 @@
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnSelectFile = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lstViewSelectedSignatures = new System.Windows.Forms.ListView();
@@ -241,7 +242,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.updateController1 = new Kjs.AppLife.Update.Controller.UpdateController(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.mainMenu.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -590,6 +591,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.btnSelectFile);
             this.tabPage1.Controls.Add(this.groupBox2);
@@ -605,6 +607,15 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Create Signatures Container   ";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(578, 260);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "MyFirstChange";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnSelectFile
             // 
@@ -2465,14 +2476,14 @@
             this.updateController1.Version = ((System.Version)(resources.GetObject("updateController1.Version")));
             this.updateController1.WebRequestKeepAlive = true;
             // 
-            // button1
+            // button2
             // 
-            this.button1.Location = new System.Drawing.Point(578, 260);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "MyFirstChange";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(581, 289);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "MySecondChange";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -2766,6 +2777,7 @@
         private System.Windows.Forms.TextBox txtNewKeyFolder;
         private System.Windows.Forms.ComboBox cmbTypeLinux;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
